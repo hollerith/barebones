@@ -74,7 +74,7 @@ export default async function HomePage({ searchParams }: Readonly<PageProps>) {
 
     return (
         <>
-            <div className='h-[25vh] min-h-[24em] top-0 sticky'>
+            <div className='h-[5vh] min-h-[12em] top-0 sticky'>
                 <div className='absolute inset-0 flex justify-center items-center'>
                     <div className='leftimage w-1/2 h-full relative'>
                     </div>
@@ -88,7 +88,7 @@ export default async function HomePage({ searchParams }: Readonly<PageProps>) {
                     </div>
                 </div>
                 <div className='absolute inset-0 flex items-center justify-center'>
-                    <div className='masthead max-w-[max-content] h-1/2 rounded-full px-12'>
+                    <div className='masthead max-w-[max-content] rounded-full px-6'>
                         <div className='gold'>BAREBONES</div>
                     </div>
                 </div>
